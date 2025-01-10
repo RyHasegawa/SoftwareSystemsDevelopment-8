@@ -2,9 +2,9 @@ function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
-            <Row>
+            <Row className="mt-3">
                 <Col>
-                    <h1 className="text-center">TODO APP by Ryo Hasegawa</h1>
+                    <h1 style={{ textAlign: 'center' }}>TODO APP by Ryo Hasegawa</h1>
                 </Col>
             </Row>
             <Row>
